@@ -2,6 +2,24 @@ import React from 'react';
 import logo from './logo.png';
 import './App.css';
 
+
+
+
+
+
+
+
+// Functions and variables
+
+function tos() {
+  window.location.href = "http://deadvideo.askodia.com/tos.html";
+}
+
+function sylo() {
+  window.location.href = "http://deadvideo.askodia.com/sylo.html";
+}
+
+// actual app
 function App() {
   return (
     <div className="App">
@@ -15,19 +33,17 @@ function App() {
         <div
         className='devi'
         >
-          <a
-            className="tos"
-            href="http://deadvideo.askodia.com/tos.html"
-          >
-            The Ohio Show 
-          </a>
+          <button
+          className='tos'
+          onClick={tos}>
+            The Ohio Show</button> 
 
-            <a
-              className="sylo"
-              href="http://deadvideo.askodia.com/sylo.html"
-            >
-           Sylo
-            </a>
+            <button
+             className="sylo"
+            onClick={sylo}
+             >
+              Sylo_
+            </button>
         </div>
 
         

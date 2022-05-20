@@ -23,6 +23,8 @@
 }
   
 .sylo {
+  font-size: 1.5rem;
+  padding: auto;
   color: #ff0000;
 }
 
@@ -31,6 +33,7 @@
 }
   
 .tos {
+  font-size: 1.5rem;
   color: #390076;
 }
 
@@ -50,6 +53,7 @@
 }
 
 .devi {
+  padding: 1rem;
   z-index: 9999;
   background-color: wheat;
   box-shadow: wheat 0px 0px 10px;
