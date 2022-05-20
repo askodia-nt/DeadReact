@@ -18,8 +18,6 @@ function App() {
           <a
             className="tos"
             href="http://deadvideo.askodia.com/tos.html"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             The Ohio Show 
           </a>
@@ -27,8 +25,6 @@ function App() {
             <a
               className="sylo"
               href="http://deadvideo.askodia.com/sylo.html"
-              target="_blank"
-              rel="noopener noreferrer"
             >
            Sylo
             </a>
