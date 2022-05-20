@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -7,18 +7,48 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <p
+        className="tittle">
+          dead_video
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        
+        <div
+        className='devi'
         >
-          Learn React
-        </a>
+          <a
+            className="tos"
+            href="http://deadvideo.askodia.com/tos.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The Ohio Show 
+          </a>
+
+            <a
+              className="sylo"
+              href="http://deadvideo.askodia.com/sylo.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+           Sylo
+            </a>
+        </div>
+
+        
       </header>
+
+      <div
+      className='notice'
+      >
+        
+          <p
+            >
+            Beta version.
+          </p>
+          <p>
+            Thanks for testing the new UI. 
+          </p>
+        </div>
     </div>
   );
 }

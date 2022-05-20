@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
+
+
+
 .App {
   text-align: center;
 }
@@ -7,32 +11,92 @@
   pointer-events: none;
 }
 
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+  
+.sylo {
+  color: #ff0000;
+}
+
+.tittle {
+  z-index: 9999;
+}
+  
+.tos {
+  color: #390076;
+}
+
+.App-logo {
+    height: 10vmin;
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin normal 5s both;
+    }
+
+    .tittle {
+      animation: App-Title-spin normal 5s both;
+    }
+      
+}
+
+.devi {
+  z-index: 9999;
+  background-color: wheat;
+  box-shadow: wheat 0px 0px 10px;
 }
 
 .App-header {
-  background-color: #282c34;
+  font-family: 'Jaldi', sans-serif;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.notice {
+  background-color: #282c34;
+  color: #61dafb;
+  padding: 10px;
+  /* put it on the top left */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* bottom left corner */
+  border-top-left-radius:  10px;
+}
+
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: translate(-300px, -300px) rotate(0deg) scaleX(1);
   }
   to {
-    transform: rotate(360deg);
+    transform: translate(000px, 52px) rotate(360deg) scaleX(1.5);
+  }
+}
+
+@keyframes App-Title-spin {
+  from {
+    transform: translate(300px, 300px) rotate(0deg);
+  }
+  to {
+    transform: translate(000px, 0) rotate(360deg) scaleX(1.5);
   }
 }
