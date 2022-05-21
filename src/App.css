@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
+
+
 
 .App {
   text-align: center;
@@ -10,16 +12,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
-
+  
 .sylo {
   font-size: 1.5rem;
   padding: auto;
@@ -29,24 +31,25 @@
 .tittle {
   z-index: 9999;
 }
-
+  
 .tos {
   font-size: 1.5rem;
   color: #390076;
 }
 
 .App-logo {
-  height: 10vmin;
+    height: 10vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin normal 5s both;
-  }
+    .App-logo {
+        animation: App-logo-spin normal 5s both;
+    }
 
-  .tittle {
-    animation: App-Title-spin normal 5s both;
-  }
+    .tittle {
+      animation: App-Title-spin normal 5s both;
+    }
+      
 }
 
 .devi {
@@ -57,7 +60,7 @@
 }
 
 .App-header {
-  font-family: "Jaldi", sans-serif;
+  font-family: 'Jaldi', sans-serif;
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -81,7 +84,7 @@
   bottom: 0;
   right: 0;
   /* bottom left corner */
-  border-top-left-radius: 10px;
+  border-top-left-radius:  10px;
 }
 
 @keyframes App-logo-spin {
@@ -89,6 +92,7 @@
     transform: translate(-300px, 52px) rotate(0deg) scaleX(1);
     opacity: 0;
   }
+
 
   to {
     transform: translate(000px, 52px) rotate(0deg) scaleX(1.5);
@@ -101,6 +105,7 @@
     transform: translate(300px, 000px) rotate(0deg) scaleX(1);
     opacity: 0;
   }
+
 
   to {
     transform: translate(000px, 0) rotate(0deg) scaleX(1.5);
