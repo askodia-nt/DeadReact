@@ -55,7 +55,7 @@ function App() {
         
           <p
             >
-            Beta version.
+            BETA 0.1
           </p>
           <p>
             Thanks for testing the new UI. 
