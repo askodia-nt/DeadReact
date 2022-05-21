@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
-
 
 
 .App {
@@ -29,6 +27,7 @@
 }
 
 .tittle {
+  font-weight: bold;
   z-index: 9999;
 }
   
@@ -43,11 +42,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
-        animation: App-logo-spin normal 5s both;
+        animation: App-logo-spin normal 3s both;
     }
 
     .tittle {
-      animation: App-Title-spin normal 5s both;
+      animation: App-Title-spin normal 3s both;
     }
       
 }
@@ -102,13 +101,13 @@
 
 @keyframes App-Title-spin {
   from {
-    transform: translate(300px, 000px) rotate(0deg) scaleX(1);
+    transform: translate(300px, 10px) rotate(0deg) scaleX(1);
     opacity: 0;
   }
 
 
   to {
-    transform: translate(000px, 0) rotate(0deg) scaleX(1.5);
+    transform: translate(000px, 10px) rotate(0deg) scaleX(1.5);
     opacity: 1;
   }
 }
