@@ -18,9 +18,13 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    /* make it 30% width */
+    max-width: 30%;
+    margin: auto;
 }
   
 .sylo {
+  align-items: right;
   font-size: 1.5rem;
   padding: auto;
   color: #ff0000;
@@ -52,10 +56,21 @@
 }
 
 .devi {
+  /* put box in the middle of the screen */
   padding: 1rem;
   z-index: 9999;
   background-color: wheat;
   box-shadow: wheat 0px 0px 10px;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  /* make it 30% width */
+  max-width: 30%;
+  margin: auto;
+  /* make the buttons a bit bigger */
+
 }
 
 .App-header {
