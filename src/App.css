@@ -89,18 +89,26 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: translate(-300px, -300px) rotate(0deg) scaleX(1);
+    transform: translate(-300px, 52px) rotate(0deg) scaleX(1);
+    opacity: 0;
   }
+
+
   to {
-    transform: translate(000px, 52px) rotate(360deg) scaleX(1.5);
+    transform: translate(000px, 52px) rotate(0deg) scaleX(1.5);
+    opacity: 1;
   }
 }
 
 @keyframes App-Title-spin {
   from {
-    transform: translate(300px, 300px) rotate(0deg);
+    transform: translate(300px, 000px) rotate(0deg) scaleX(1);
+    opacity: 0;
   }
+
+
   to {
-    transform: translate(000px, 0) rotate(360deg) scaleX(1.5);
+    transform: translate(000px, 0) rotate(0deg) scaleX(1.5);
+    opacity: 1;
   }
 }
